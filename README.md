@@ -1,5 +1,10 @@
 #Angular from scratch
 
+This is my copy of the code I wrote following Matthieu Lux's talk at ng-europe 2014. The details are below.
+
+Below this line is from Matthieu Lux:
+--------------------------------------------
+
 This is the repository of my live coding from [ng-europe](http://ngeurope.org) and [Soft Shake](http://soft-shake.ch).
 
 It's a fork of the initiative of a Workshop for the [DevoxxFR](http://www.devoxx.fr/) and the [Mix-IT](http://www.mix-it.fr/). You can find more description on the original repository.
