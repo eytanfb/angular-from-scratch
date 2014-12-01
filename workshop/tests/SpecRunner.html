@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Jasmine Spec Runner v2.0.0</title>
+
+  <link rel="shortcut icon" type="image/png" href="jasmine-2.0.0/jasmine_favicon.png">
+  <link rel="stylesheet" type="text/css" href="jasmine-2.0.0/jasmine.css">
+
+  <script type="text/javascript" src="jasmine-2.0.0/jasmine.js"></script>
+  <script type="text/javascript" src="jasmine-2.0.0/jasmine-html.js"></script>
+  <script type="text/javascript" src="jasmine-2.0.0/boot.js"></script>
+
+  <script type="text/javascript" src="../underscore.js"></script>
+
+  <!-- include source files here... -->
+  <script type="text/javascript" src="../zengular.js"></script>
+  <!-- <script type="text/javascript" src="../solutions/zengular-10-bind.js"></script> -->
+
+  <!-- include spec files here... -->
+  <script type="text/javascript" src="zengular-tests-01-scope.js"></script>
+  <script type="text/javascript" src="zengular-tests-02-watch.js"></script>
+  <script type="text/javascript" src="zengular-tests-03-digest.js"></script>
+  <script type="text/javascript" src="zengular-tests-04-apply.js"></script>
+  <script type="text/javascript" src="zengular-tests-05-loop.js"></script>
+  <!-- <script type="text/javascript" src="zengular-tests-06-dirty.js"></script> -->
+  <script type="text/javascript" src="zengular-tests-07-phase.js"></script>
+  <script type="text/javascript" src="zengular-tests-08-directive.js"></script>
+  <script type="text/javascript" src="zengular-tests-09-compile.js"></script>
+  <script type="text/javascript" src="zengular-tests-10-bind.js"></script>
+  <script type="text/javascript" src="zengular-tests-11-model.js"></script>
+  <!-- <script type="text/javascript" src="zengular-tests-12-click.js"></script> -->
+
+</head>
+
+<body>
+
+  <div id="domStep09">
+    <p id="elementWithDirective" my-directive-test>Test p block</p>
+  </div>
+
+  <div id="domStep10">
+    <p id="elementWithNgBind" ng-bind="test.bind">Test p block</p>
+  </div>
+
+  <div id="domStep11">
+    <input type="text" id="elementWithNgModel" ng-model="test.bind">
+  </div>
+
+  <div id="domStep12">
+    <p id="elementWithNgClick" ng-click="test.click()">Test p block</p>
+  </div>
+
+</body>
+</html>
